@@ -1,5 +1,6 @@
 from selenium import webdriver
 from bs4 import BeautifulSoup
+import requests
 
 # Notes:
 # Use column "OWNNAME"
@@ -26,11 +27,19 @@ button_id = 'btnDetail-200725810008'
 the_button = browser.find_element_by_id(button_id)
 the_button.click()
 
-with open('page.html', 'w') as o:
-    o.write(browser.page_source)
-
-
+# Get pdfs
+res = requests.get('https://businesssearch.sos.ca.gov/Document/RetrievePDF?Id=200725810008-22600401')
+with open('_foo_bytes.pdf', 'wb') as o:
+    o.write(res.content)
+'''
 soup = BeautifulSoup(browser.page_source, 'html.parser')
+buttons = soup.find_all('button')
+foo = #somefunction
+pdf_url_prefix =\
+    'https://businesssearch.sos.ca.gov/Document/RetrievePDF?Id='
+b = buttons
+suffixes = [str(b[u]).split('value="')[1].split('"')[0] for u in range(len(b))]
+[foo(pdf_url_prefix + suffix) for suffix in suffixes]
 
 rows = soup.find_all('div', attrs={'class': 'row'})
 desired_data = rows[8]
@@ -39,4 +48,4 @@ desired_data = desired_data.replace(' Address', '').replace(' \n', '')
 desired_data = desired_data.replace(' City, State, Zip', '')
 desired_data = desired_data.split('Agent')
 
-
+'''
