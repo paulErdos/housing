@@ -435,3 +435,25 @@ console.error: BroadcastService:
   Stack:
     remoteSettingsFunction/remoteSettings.pollChanges@resource://services-settings/remote-settings.js:750:13
 
+1547708942162	Marionette	INFO	Stopped listening on port 52604
+1547782064884	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-foreground" "-no-remote" "-profile" "/var/folders/xj/1vc4l_jd2tg32mhfsssj5fm80000gn/T/rust_mozprofile.rxN9ra84dGfN"
+2019-01-17 19:27:48.615 firefox-bin[3428:126463] <Afloat - DEBUG: '-[Afloat install]'>: <Afloat: 0x11b39a440> found no Window menu in NSApp <GeckoNSApplication: 0x10ad98e50>
+1547782069094	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid host permission: resource://pdf.js/
+1547782069094	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid host permission: about:reader*
+Can't find symbol 'GetGraphicsResetStatus'.
+1547782073336	Marionette	INFO	Listening on port 53439
+1547782073399	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://businesssearch.sos.ca.gov/_Incapsula_Resource?SWJIYLWA=719d34d31c8e3a6e6fffd425f7e032f3&ns=1&cb=236042773, line 1: unreachable code after return statement
+JavaScript warning: https://businesssearch.sos.ca.gov/_Incapsula_Resource?SWJIYLWA=719d34d31c8e3a6e6fffd425f7e032f3&ns=1&cb=236042773, line 1: unreachable code after return statement
+JavaScript warning: https://businesssearch.sos.ca.gov/_Incapsula_Resource?SWJIYLWA=719d34d31c8e3a6e6fffd425f7e032f3&ns=1&cb=236042773 line 1 > eval, line 1: unreachable code after return statement
+2019-01-17 19:28:32.988 firefox-bin[3428:126463] -deltaZ is deprecated for NSEventTypeMagnify.  Please use -magnification.
+Can't find symbol 'GetGraphicsResetStatus'.
+console.error: BroadcastService: 
+  receivedBroadcastMessage: handler for
+  remote-settings/monitor_changes
+  threw error:
+  Message: Error: Polling for changes failed: NetworkError when attempting to fetch resource..
+  Stack:
+    remoteSettingsFunction/remoteSettings.pollChanges@resource://services-settings/remote-settings.js:750:13
+
+console.error: "stylesheets actor: fetch failed for https://businesssearch.sos.ca.gov/packages/theme_sos/themes/theme_sos/css/main-bs.css, using system principal instead."

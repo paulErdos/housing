@@ -1,0 +1,24 @@
+Questions:
+* I'm taking all unique ownnames instead of iterating line by line. Okay to
+  make a new two column spreadsheet saying which gave back none or more than
+  one result?
+* I'm seeing multiple pdfs. Which one do you want, or do you want all?
+
+filename = <ownname>.pdf
+
+Don't need to add to the spreadsheet.
+Just make a flag-list where one column is the ownname for ownnames for which
+there is zero or more than one result, and a column for the flag. Or just
+one column list of ownnames.
+
+/* Leave this for now and do at a later time after talking with Brad
+Search queries must have one of three things:
+Anything that's an llc has one of three things in the name:
+1.  
+2. 
+3. 
+*/
+
+Question 2:
+* Grab all pdfs, get doc type, and file date. Make filename (ownname +
+  doctype + filedate).pdf
