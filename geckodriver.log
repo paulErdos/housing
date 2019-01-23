@@ -457,3 +457,511 @@ console.error: BroadcastService:
     remoteSettingsFunction/remoteSettings.pollChanges@resource://services-settings/remote-settings.js:750:13
 
 console.error: "stylesheets actor: fetch failed for https://businesssearch.sos.ca.gov/packages/theme_sos/themes/theme_sos/css/main-bs.css, using system principal instead."
+Can't find symbol 'GetGraphicsResetStatus'.
+Handler function threw an exception: TypeError: this.walker is null
+Stack: get conn@resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/inspector/node.js:67:5
+parent@resource://devtools/shared/base-loader.js -> resource://devtools/shared/protocol.js:826:5
+destroy@resource://devtools/shared/base-loader.js -> resource://devtools/shared/protocol.js:931:20
+destroy@resource://devtools/shared/base-loader.js -> resource://devtools/shared/protocol.js:1026:5
+destroy@resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/inspector/node.js:76:5
+destroy@resource://devtools/shared/base-loader.js -> resource://devtools/shared/protocol.js:948:9
+destroy@resource://devtools/shared/base-loader.js -> resource://devtools/shared/protocol.js:1026:5
+destroy@resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/styles.js:90:5
+destroy@resource://devtools/shared/base-loader.js -> resource://devtools/shared/protocol.js:948:9
+destroy@resource://devtools/shared/base-loader.js -> resource://devtools/shared/protocol.js:1026:5
+destroy@resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/inspector/inspector.js:87:5
+destroy@resource://devtools/shared/base-loader.js -> resource://devtools/shared/protocol.js:948:9
+_detach@resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/targets/browsing-context.js:883:7
+exit@resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/targets/browsing-context.js:513:5
+frameTargetPrototype.exit@resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/targets/frame.js:80:3
+destroy@resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/targets/browsing-context.js:494:5
+removeActor@resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/common.js:67:7
+APDestroy@resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/common.js:29:7
+onClosed/<@resource://devtools/shared/base-loader.js -> resource://devtools/server/main.js:1412:35
+onClosed@resource://devtools/shared/base-loader.js -> resource://devtools/server/main.js:1412:5
+close@resource://devtools/shared/base-loader.js -> resource://devtools/shared/transport/child-transport.js:62:5
+close@resource://devtools/shared/base-loader.js -> resource://devtools/server/main.js:1026:7
+onDisconnect<@resource://devtools/server/startup/frame.js:122:7
+exports.makeInfallible/<@resource://devtools/shared/base-loader.js -> resource://devtools/shared/ThreadSafeDevToolsUtils.js:109:14
+Line: 67, column: 5
+console.error: "Handler function threw an exception: TypeError: this.walker is null\nStack: get conn@resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/inspector/node.js:67:5\nparent@resource://devtools/shared/base-loader.js -> resource://devtools/shared/protocol.js:826:5\ndestroy@resource://devtools/shared/base-loader.js -> resource://devtools/shared/protocol.js:931:20\ndestroy@resource://devtools/shared/base-loader.js -> resource://devtools/shared/protocol.js:1026:5\ndestroy@resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/inspector/node.js:76:5\ndestroy@resource://devtools/shared/base-loader.js -> resource://devtools/shared/protocol.js:948:9\ndestroy@resource://devtools/shared/base-loader.js -> resource://devtools/shared/protocol.js:1026:5\ndestroy@resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/styles.js:90:5\ndestroy@resource://devtools/shared/base-loader.js -> resource://devtools/shared/protocol.js:948:9\ndestroy@resource://devtools/shared/base-loader.js -> resource://devtools/shared/protocol.js:1026:5\ndestroy@resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/inspector/inspector.js:87:5\ndestroy@resource://devtools/shared/base-loader.js -> resource://devtools/shared/protocol.js:948:9\n_detach@resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/targets/browsing-context.js:883:7\nexit@resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/targets/browsing-context.js:513:5\nframeTargetPrototype.exit@resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/targets/frame.js:80:3\ndestroy@resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/targets/browsing-context.js:494:5\nremoveActor@resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/common.js:67:7\nAPDestroy@resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/common.js:29:7\nonClosed/<@resource://devtools/shared/base-loader.js -> resource://devtools/server/main.js:1412:35\nonClosed@resource://devtools/shared/base-loader.js -> resource://devtools/server/main.js:1412:5\nclose@resource://devtools/shared/base-loader.js -> resource://devtools/shared/transport/child-transport.js:62:5\nclose@resource://devtools/shared/base-loader.js -> resource://devtools/server/main.js:1026:7\nonDisconnect<@resource://devtools/server/startup/frame.js:122:7\nexports.makeInfallible/<@resource://devtools/shared/base-loader.js -> resource://devtools/shared/ThreadSafeDevToolsUtils.js:109:14\nLine: 67, column: 5"
+1547792608400	Marionette	INFO	Stopped listening on port 53439
+1548224447304	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-foreground" "-no-remote" "-profile" "/var/folders/xj/1vc4l_jd2tg32mhfsssj5fm80000gn/T/rust_mozprofile.HXGKmtIBS5yx"
+2019-01-22 22:20:49.984 firefox-bin[5529:296402] <Afloat - DEBUG: '-[Afloat install]'>: <Afloat: 0x114389220> found no Window menu in NSApp <GeckoNSApplication: 0x103797e50>
+1548224450190	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid host permission: resource://pdf.js/
+1548224450190	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid host permission: about:reader*
+Can't find symbol 'GetGraphicsResetStatus'.
+1548224453291	Marionette	INFO	Listening on port 61407
+1548224453352	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://businesssearch.sos.ca.gov/_Incapsula_Resource?SWJIYLWA=719d34d31c8e3a6e6fffd425f7e032f3&ns=1&cb=249352762, line 1: unreachable code after return statement
+JavaScript warning: https://businesssearch.sos.ca.gov/_Incapsula_Resource?SWJIYLWA=719d34d31c8e3a6e6fffd425f7e032f3&ns=1&cb=249352762, line 1: unreachable code after return statement
+JavaScript warning: https://businesssearch.sos.ca.gov/_Incapsula_Resource?SWJIYLWA=719d34d31c8e3a6e6fffd425f7e032f3&ns=1&cb=249352762 line 1 > eval, line 1: unreachable code after return statement
+console.error: BroadcastService: 
+  receivedBroadcastMessage: handler for
+  remote-settings/monitor_changes
+  threw error:
+  Message: Error: Polling for changes failed: NetworkError when attempting to fetch resource..
+  Stack:
+    remoteSettingsFunction/remoteSettings.pollChanges@resource://services-settings/remote-settings.js:750:13
+
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+1548225356153	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-foreground" "-no-remote" "-profile" "/var/folders/xj/1vc4l_jd2tg32mhfsssj5fm80000gn/T/rust_mozprofile.UKXE8RuEDRn6"
+2019-01-22 22:35:56.872 firefox-bin[5573:302406] <Afloat - DEBUG: '-[Afloat install]'>: <Afloat: 0x111281420> found no Window menu in NSApp <GeckoNSApplication: 0x100c97e50>
+1548225357100	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid host permission: resource://pdf.js/
+1548225357101	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid host permission: about:reader*
+Can't find symbol 'GetGraphicsResetStatus'.
+1548225358685	Marionette	INFO	Listening on port 61615
+1548225358756	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://businesssearch.sos.ca.gov/_Incapsula_Resource?SWJIYLWA=719d34d31c8e3a6e6fffd425f7e032f3&ns=1&cb=631857791, line 1: unreachable code after return statement
+JavaScript warning: https://businesssearch.sos.ca.gov/_Incapsula_Resource?SWJIYLWA=719d34d31c8e3a6e6fffd425f7e032f3&ns=1&cb=631857791, line 1: unreachable code after return statement
+JavaScript warning: https://businesssearch.sos.ca.gov/_Incapsula_Resource?SWJIYLWA=719d34d31c8e3a6e6fffd425f7e032f3&ns=1&cb=631857791 line 1 > eval, line 1: unreachable code after return statement
+console.error: BroadcastService: 
+  receivedBroadcastMessage: handler for
+  remote-settings/monitor_changes
+  threw error:
+  Message: Error: Polling for changes failed: NetworkError when attempting to fetch resource..
+  Stack:
+    remoteSettingsFunction/remoteSettings.pollChanges@resource://services-settings/remote-settings.js:750:13
+
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+[Child 5574, Chrome_ChildThread] WARNING: pipe error: Broken pipe: file /builds/worker/workspace/build/src/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 736
+1548226823423	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-foreground" "-no-remote" "-profile" "/var/folders/xj/1vc4l_jd2tg32mhfsssj5fm80000gn/T/rust_mozprofile.Z16AAZPLHXwe"
+2019-01-22 23:00:24.067 firefox-bin[5631:311293] <Afloat - DEBUG: '-[Afloat install]'>: <Afloat: 0x1147683a0> found no Window menu in NSApp <GeckoNSApplication: 0x104196e50>
+1548226824307	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid host permission: resource://pdf.js/
+1548226824307	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid host permission: about:reader*
+Can't find symbol 'GetGraphicsResetStatus'.
+1548226826164	Marionette	INFO	Listening on port 61817
+1548226826229	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://businesssearch.sos.ca.gov/_Incapsula_Resource?SWJIYLWA=719d34d31c8e3a6e6fffd425f7e032f3&ns=1&cb=1913885638, line 1: unreachable code after return statement
+JavaScript warning: https://businesssearch.sos.ca.gov/_Incapsula_Resource?SWJIYLWA=719d34d31c8e3a6e6fffd425f7e032f3&ns=1&cb=1913885638, line 1: unreachable code after return statement
+JavaScript warning: https://businesssearch.sos.ca.gov/_Incapsula_Resource?SWJIYLWA=719d34d31c8e3a6e6fffd425f7e032f3&ns=1&cb=1913885638 line 1 > eval, line 1: unreachable code after return statement
+console.error: BroadcastService: 
+  receivedBroadcastMessage: handler for
+  remote-settings/monitor_changes
+  threw error:
+  Message: Error: Polling for changes failed: NetworkError when attempting to fetch resource..
+  Stack:
+    remoteSettingsFunction/remoteSettings.pollChanges@resource://services-settings/remote-settings.js:750:13
+
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+1548227174166	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-foreground" "-no-remote" "-profile" "/var/folders/xj/1vc4l_jd2tg32mhfsssj5fm80000gn/T/rust_mozprofile.jVgRlf2dJ5Zw"
+2019-01-22 23:06:15.095 firefox-bin[5644:314002] <Afloat - DEBUG: '-[Afloat install]'>: <Afloat: 0x11256a3a0> found no Window menu in NSApp <GeckoNSApplication: 0x101f96e50>
+1548227175333	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid host permission: resource://pdf.js/
+1548227175333	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid host permission: about:reader*
+Can't find symbol 'GetGraphicsResetStatus'.
+1548227177252	Marionette	INFO	Listening on port 61937
+1548227177360	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://businesssearch.sos.ca.gov/_Incapsula_Resource?SWJIYLWA=719d34d31c8e3a6e6fffd425f7e032f3&ns=1&cb=13969169, line 1: unreachable code after return statement
+JavaScript warning: https://businesssearch.sos.ca.gov/_Incapsula_Resource?SWJIYLWA=719d34d31c8e3a6e6fffd425f7e032f3&ns=1&cb=13969169, line 1: unreachable code after return statement
+JavaScript warning: https://businesssearch.sos.ca.gov/_Incapsula_Resource?SWJIYLWA=719d34d31c8e3a6e6fffd425f7e032f3&ns=1&cb=13969169 line 1 > eval, line 1: unreachable code after return statement
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+1548227298168	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-foreground" "-no-remote" "-profile" "/var/folders/xj/1vc4l_jd2tg32mhfsssj5fm80000gn/T/rust_mozprofile.sWCLUyysM8hF"
+2019-01-22 23:08:19.323 firefox-bin[5657:316283] <Afloat - DEBUG: '-[Afloat install]'>: <Afloat: 0x11b9643e0> found no Window menu in NSApp <GeckoNSApplication: 0x10b397e50>
+1548227299559	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid host permission: resource://pdf.js/
+1548227299559	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid host permission: about:reader*
+Can't find symbol 'GetGraphicsResetStatus'.
+1548227302073	Marionette	INFO	Listening on port 62078
+1548227302178	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://businesssearch.sos.ca.gov/_Incapsula_Resource?SWJIYLWA=719d34d31c8e3a6e6fffd425f7e032f3&ns=1&cb=1141550068, line 1: unreachable code after return statement
+JavaScript warning: https://businesssearch.sos.ca.gov/_Incapsula_Resource?SWJIYLWA=719d34d31c8e3a6e6fffd425f7e032f3&ns=1&cb=1141550068, line 1: unreachable code after return statement
+JavaScript warning: https://businesssearch.sos.ca.gov/_Incapsula_Resource?SWJIYLWA=719d34d31c8e3a6e6fffd425f7e032f3&ns=1&cb=1141550068 line 1 > eval, line 1: unreachable code after return statement
+console.error: BroadcastService: 
+  receivedBroadcastMessage: handler for
+  remote-settings/monitor_changes
+  threw error:
+  Message: Error: Polling for changes failed: NetworkError when attempting to fetch resource..
+  Stack:
+    remoteSettingsFunction/remoteSettings.pollChanges@resource://services-settings/remote-settings.js:750:13
+
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+[Child 5659, Chrome_ChildThread] WARNING: pipe error: Broken pipe: file /builds/worker/workspace/build/src/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 736
+1548227753429	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-foreground" "-no-remote" "-profile" "/var/folders/xj/1vc4l_jd2tg32mhfsssj5fm80000gn/T/rust_mozprofile.ZAQl0ToSKP7g"
+2019-01-22 23:15:54.766 firefox-bin[5683:319787] <Afloat - DEBUG: '-[Afloat install]'>: <Afloat: 0x1155d4480> found no Window menu in NSApp <GeckoNSApplication: 0x10729ce50>
+1548227755008	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid host permission: resource://pdf.js/
+1548227755009	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid host permission: about:reader*
+Can't find symbol 'GetGraphicsResetStatus'.
+1548227757682	Marionette	INFO	Listening on port 62201
+1548227757763	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://businesssearch.sos.ca.gov/_Incapsula_Resource?SWJIYLWA=719d34d31c8e3a6e6fffd425f7e032f3&ns=1&cb=2099446461, line 1: unreachable code after return statement
+JavaScript warning: https://businesssearch.sos.ca.gov/_Incapsula_Resource?SWJIYLWA=719d34d31c8e3a6e6fffd425f7e032f3&ns=1&cb=2099446461, line 1: unreachable code after return statement
+JavaScript warning: https://businesssearch.sos.ca.gov/_Incapsula_Resource?SWJIYLWA=719d34d31c8e3a6e6fffd425f7e032f3&ns=1&cb=2099446461 line 1 > eval, line 1: unreachable code after return statement
+console.error: BroadcastService: 
+  receivedBroadcastMessage: handler for
+  remote-settings/monitor_changes
+  threw error:
+  Message: Error: Polling for changes failed: NetworkError when attempting to fetch resource..
+  Stack:
+    remoteSettingsFunction/remoteSettings.pollChanges@resource://services-settings/remote-settings.js:750:13
+
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+1548227851623	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-foreground" "-no-remote" "-profile" "/var/folders/xj/1vc4l_jd2tg32mhfsssj5fm80000gn/T/rust_mozprofile.wbRbvMdVcQLC"
+2019-01-22 23:17:33.512 firefox-bin[5692:321473] <Afloat - DEBUG: '-[Afloat install]'>: <Afloat: 0x115e63420> found no Window menu in NSApp <GeckoNSApplication: 0x105596e50>
+1548227853757	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid host permission: resource://pdf.js/
+1548227853757	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid host permission: about:reader*
+Can't find symbol 'GetGraphicsResetStatus'.
+1548227856826	Marionette	INFO	Listening on port 62330
+1548227856931	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://businesssearch.sos.ca.gov/_Incapsula_Resource?SWJIYLWA=719d34d31c8e3a6e6fffd425f7e032f3&ns=1&cb=473640807, line 1: unreachable code after return statement
+JavaScript warning: https://businesssearch.sos.ca.gov/_Incapsula_Resource?SWJIYLWA=719d34d31c8e3a6e6fffd425f7e032f3&ns=1&cb=473640807, line 1: unreachable code after return statement
+JavaScript warning: https://businesssearch.sos.ca.gov/_Incapsula_Resource?SWJIYLWA=719d34d31c8e3a6e6fffd425f7e032f3&ns=1&cb=473640807 line 1 > eval, line 1: unreachable code after return statement
+console.error: BroadcastService: 
+  receivedBroadcastMessage: handler for
+  remote-settings/monitor_changes
+  threw error:
+  Message: Error: Polling for changes failed: NetworkError when attempting to fetch resource..
+  Stack:
+    remoteSettingsFunction/remoteSettings.pollChanges@resource://services-settings/remote-settings.js:750:13
+
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+[Child 5694, Chrome_ChildThread] WARNING: pipe error: Broken pipe: file /builds/worker/workspace/build/src/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 736
+1548228407479	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-foreground" "-no-remote" "-profile" "/var/folders/xj/1vc4l_jd2tg32mhfsssj5fm80000gn/T/rust_mozprofile.jwRv8Upa1P0X"
+2019-01-22 23:26:47.940 firefox-bin[5725:325281] <Afloat - DEBUG: '-[Afloat install]'>: <Afloat: 0x112163420> found no Window menu in NSApp <GeckoNSApplication: 0x101b96e50>
+1548228408187	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid host permission: resource://pdf.js/
+1548228408187	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid host permission: about:reader*
+Can't find symbol 'GetGraphicsResetStatus'.
+1548228409962	Marionette	INFO	Listening on port 62490
+1548228410047	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://businesssearch.sos.ca.gov/_Incapsula_Resource?SWJIYLWA=719d34d31c8e3a6e6fffd425f7e032f3&ns=1&cb=1187714198, line 1: unreachable code after return statement
+console.error: BroadcastService: 
+  receivedBroadcastMessage: handler for
+  remote-settings/monitor_changes
+  threw error:
+  Message: Error: Polling for changes failed: NetworkError when attempting to fetch resource..
+  Stack:
+    remoteSettingsFunction/remoteSettings.pollChanges@resource://services-settings/remote-settings.js:750:13
+
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+[Child 5728, Chrome_ChildThread] WARNING: pipe error: Broken pipe: file /builds/worker/workspace/build/src/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 736
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+1548228535889	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-foreground" "-no-remote" "-profile" "/var/folders/xj/1vc4l_jd2tg32mhfsssj5fm80000gn/T/rust_mozprofile.aP5oIY3iE7W1"
+2019-01-22 23:28:57.167 firefox-bin[5736:327213] <Afloat - DEBUG: '-[Afloat install]'>: <Afloat: 0x1205b0400> found no Window menu in NSApp <GeckoNSApplication: 0x10ff97e50>
+1548228537406	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid host permission: resource://pdf.js/
+1548228537406	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid host permission: about:reader*
+Can't find symbol 'GetGraphicsResetStatus'.
+1548228539408	Marionette	INFO	Listening on port 62607
+1548228539483	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://businesssearch.sos.ca.gov/_Incapsula_Resource?SWJIYLWA=719d34d31c8e3a6e6fffd425f7e032f3&ns=1&cb=133496472, line 1: unreachable code after return statement
+JavaScript warning: https://businesssearch.sos.ca.gov/_Incapsula_Resource?SWJIYLWA=719d34d31c8e3a6e6fffd425f7e032f3&ns=1&cb=133496472, line 1: unreachable code after return statement
+JavaScript warning: https://businesssearch.sos.ca.gov/_Incapsula_Resource?SWJIYLWA=719d34d31c8e3a6e6fffd425f7e032f3&ns=1&cb=133496472 line 1 > eval, line 1: unreachable code after return statement
+console.error: BroadcastService: 
+  receivedBroadcastMessage: handler for
+  remote-settings/monitor_changes
+  threw error:
+  Message: Error: Polling for changes failed: NetworkError when attempting to fetch resource..
+  Stack:
+    remoteSettingsFunction/remoteSettings.pollChanges@resource://services-settings/remote-settings.js:750:13
+
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+[Child 5739, Chrome_ChildThread] WARNING: pipe error: Broken pipe: file /builds/worker/workspace/build/src/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 736
+[Child 5738, Chrome_ChildThread] WARNING: pipe error: Broken pipe: file /builds/worker/workspace/build/src/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 736
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x12002A,name=PBackground::Msg_PHttpBackgroundChannelConstructor) Channel error: cannot send/recv
+
+[Child 5738, Chrome_ChildThread] WARNING: pipe error: Broken pipe: file /builds/worker/workspace/build/src/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 736
+[Child 5738, Chrome_ChildThread] WARNING: pipe error: Broken pipe: file /builds/worker/workspace/build/src/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 736
+[Child 5738, Chrome_ChildThread] WARNING: pipe error: Broken pipe: file /builds/worker/workspace/build/src/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 736
+[Child 5738, Chrome_ChildThread] WARNING: pipe error: Broken pipe: file /builds/worker/workspace/build/src/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 736
+1548228640302	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-foreground" "-no-remote" "-profile" "/var/folders/xj/1vc4l_jd2tg32mhfsssj5fm80000gn/T/rust_mozprofile.QDp1w2R8w6G9"
+2019-01-22 23:30:41.512 firefox-bin[5746:328875] <Afloat - DEBUG: '-[Afloat install]'>: <Afloat: 0x1187603c0> found no Window menu in NSApp <GeckoNSApplication: 0x10819ce50>
+1548228641748	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid host permission: resource://pdf.js/
+1548228641748	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid host permission: about:reader*
+Can't find symbol 'GetGraphicsResetStatus'.
+1548228644283	Marionette	INFO	Listening on port 62787
+1548228644316	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://businesssearch.sos.ca.gov/_Incapsula_Resource?SWJIYLWA=719d34d31c8e3a6e6fffd425f7e032f3&ns=1&cb=881764196, line 1: unreachable code after return statement
+JavaScript warning: https://businesssearch.sos.ca.gov/_Incapsula_Resource?SWJIYLWA=719d34d31c8e3a6e6fffd425f7e032f3&ns=1&cb=881764196, line 1: unreachable code after return statement
+JavaScript warning: https://businesssearch.sos.ca.gov/_Incapsula_Resource?SWJIYLWA=719d34d31c8e3a6e6fffd425f7e032f3&ns=1&cb=881764196 line 1 > eval, line 1: unreachable code after return statement
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+1548228691019	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-foreground" "-no-remote" "-profile" "/var/folders/xj/1vc4l_jd2tg32mhfsssj5fm80000gn/T/rust_mozprofile.FpbdbwfihTu0"
+2019-01-22 23:31:32.180 firefox-bin[5754:330333] <Afloat - DEBUG: '-[Afloat install]'>: <Afloat: 0x120554380> found no Window menu in NSApp <GeckoNSApplication: 0x10fc96e50>
+1548228692421	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid host permission: resource://pdf.js/
+1548228692422	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid host permission: about:reader*
+Can't find symbol 'GetGraphicsResetStatus'.
+1548228695245	Marionette	INFO	Listening on port 62918
+1548228695342	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://businesssearch.sos.ca.gov/_Incapsula_Resource?SWJIYLWA=719d34d31c8e3a6e6fffd425f7e032f3&ns=1&cb=57291892, line 1: unreachable code after return statement
+JavaScript warning: https://businesssearch.sos.ca.gov/_Incapsula_Resource?SWJIYLWA=719d34d31c8e3a6e6fffd425f7e032f3&ns=1&cb=57291892, line 1: unreachable code after return statement
+JavaScript warning: https://businesssearch.sos.ca.gov/_Incapsula_Resource?SWJIYLWA=719d34d31c8e3a6e6fffd425f7e032f3&ns=1&cb=57291892 line 1 > eval, line 1: unreachable code after return statement
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+[Child 5756, Chrome_ChildThread] WARNING: pipe error: Broken pipe: file /builds/worker/workspace/build/src/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 736
+1548228798256	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-foreground" "-no-remote" "-profile" "/var/folders/xj/1vc4l_jd2tg32mhfsssj5fm80000gn/T/rust_mozprofile.cdgEGbpZZFEc"
+2019-01-22 23:33:18.788 firefox-bin[5763:332512] <Afloat - DEBUG: '-[Afloat install]'>: <Afloat: 0x113c64400> found no Window menu in NSApp <GeckoNSApplication: 0x103697e50>
+1548228799044	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid host permission: resource://pdf.js/
+1548228799044	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid host permission: about:reader*
+Can't find symbol 'GetGraphicsResetStatus'.
+1548228801057	Marionette	INFO	Listening on port 63038
+1548228801160	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://businesssearch.sos.ca.gov/_Incapsula_Resource?SWJIYLWA=719d34d31c8e3a6e6fffd425f7e032f3&ns=1&cb=667562917, line 1: unreachable code after return statement
+JavaScript warning: https://businesssearch.sos.ca.gov/_Incapsula_Resource?SWJIYLWA=719d34d31c8e3a6e6fffd425f7e032f3&ns=1&cb=667562917, line 1: unreachable code after return statement
+JavaScript warning: https://businesssearch.sos.ca.gov/_Incapsula_Resource?SWJIYLWA=719d34d31c8e3a6e6fffd425f7e032f3&ns=1&cb=667562917 line 1 > eval, line 1: unreachable code after return statement
+console.error: BroadcastService: 
+  receivedBroadcastMessage: handler for
+  remote-settings/monitor_changes
+  threw error:
+  Message: Error: Polling for changes failed: NetworkError when attempting to fetch resource..
+  Stack:
+    remoteSettingsFunction/remoteSettings.pollChanges@resource://services-settings/remote-settings.js:750:13
+
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+[Child 5765, Chrome_ChildThread] WARNING: pipe error: Broken pipe: file /builds/worker/workspace/build/src/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 736
+[Child 5764, Chrome_ChildThread] WARNING: pipe error: Broken pipe: file /builds/worker/workspace/build/src/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 736
+1548229417345	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-foreground" "-no-remote" "-profile" "/var/folders/xj/1vc4l_jd2tg32mhfsssj5fm80000gn/T/rust_mozprofile.mxSeh3vN8uK1"
+2019-01-22 23:43:41.447 firefox-bin[5793:337135] <Afloat - DEBUG: '-[Afloat install]'>: <Afloat: 0x112afc2c0> found no Window menu in NSApp <GeckoNSApplication: 0x103f96e50>
+1548229421675	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid host permission: resource://pdf.js/
+1548229421675	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid host permission: about:reader*
+Can't find symbol 'GetGraphicsResetStatus'.
+1548229425654	Marionette	INFO	Listening on port 63793
+1548229425674	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://businesssearch.sos.ca.gov/_Incapsula_Resource?SWJIYLWA=719d34d31c8e3a6e6fffd425f7e032f3&ns=1&cb=1956461005, line 1: unreachable code after return statement
+JavaScript warning: https://businesssearch.sos.ca.gov/_Incapsula_Resource?SWJIYLWA=719d34d31c8e3a6e6fffd425f7e032f3&ns=1&cb=1956461005, line 1: unreachable code after return statement
+JavaScript warning: https://businesssearch.sos.ca.gov/_Incapsula_Resource?SWJIYLWA=719d34d31c8e3a6e6fffd425f7e032f3&ns=1&cb=1956461005 line 1 > eval, line 1: unreachable code after return statement
+console.error: BroadcastService: 
+  receivedBroadcastMessage: handler for
+  remote-settings/monitor_changes
+  threw error:
+  Message: Error: Polling for changes failed: NetworkError when attempting to fetch resource..
+  Stack:
+    remoteSettingsFunction/remoteSettings.pollChanges@resource://services-settings/remote-settings.js:750:13
+
+1548231212343	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-foreground" "-no-remote" "-profile" "/var/folders/xj/1vc4l_jd2tg32mhfsssj5fm80000gn/T/rust_mozprofile.Mvz6t8nKl7aX"
+2019-01-23 00:13:47.746 firefox-bin[5873:349957] <Afloat - DEBUG: '-[Afloat install]'>: <Afloat: 0x118a71460> found no Window menu in NSApp <GeckoNSApplication: 0x10a896e50>
+1548231228383	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid host permission: resource://pdf.js/
+1548231228384	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid host permission: about:reader*
+Can't find symbol 'GetGraphicsResetStatus'.
+1548231235617	Marionette	INFO	Listening on port 64996
+1548231235691	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://businesssearch.sos.ca.gov/_Incapsula_Resource?SWJIYLWA=719d34d31c8e3a6e6fffd425f7e032f3&ns=1&cb=1668563882, line 1: unreachable code after return statement
+JavaScript warning: https://businesssearch.sos.ca.gov/_Incapsula_Resource?SWJIYLWA=719d34d31c8e3a6e6fffd425f7e032f3&ns=1&cb=1668563882, line 1: unreachable code after return statement
+JavaScript warning: https://businesssearch.sos.ca.gov/_Incapsula_Resource?SWJIYLWA=719d34d31c8e3a6e6fffd425f7e032f3&ns=1&cb=1668563882 line 1 > eval, line 1: unreachable code after return statement
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+[Child 5837, Chrome_ChildThread] WARNING: pipe error: Broken pipe: file /builds/worker/workspace/build/src/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 736
+[Child 5795, Chrome_ChildThread] WARNING: pipe error: Broken pipe: file /builds/worker/workspace/build/src/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 736
+1548231331529	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-foreground" "-no-remote" "-profile" "/var/folders/xj/1vc4l_jd2tg32mhfsssj5fm80000gn/T/rust_mozprofile.fC6b4U32tu3E"
+2019-01-23 00:15:32.698 firefox-bin[5885:352027] <Afloat - DEBUG: '-[Afloat install]'>: <Afloat: 0x11b782420> found no Window menu in NSApp <GeckoNSApplication: 0x10b197e50>
+1548231332945	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid host permission: resource://pdf.js/
+1548231332946	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid host permission: about:reader*
+Can't find symbol 'GetGraphicsResetStatus'.
+1548231335721	Marionette	INFO	Listening on port 65316
+1548231335818	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://businesssearch.sos.ca.gov/_Incapsula_Resource?SWJIYLWA=719d34d31c8e3a6e6fffd425f7e032f3&ns=1&cb=1760621771, line 1: unreachable code after return statement
+JavaScript warning: https://businesssearch.sos.ca.gov/_Incapsula_Resource?SWJIYLWA=719d34d31c8e3a6e6fffd425f7e032f3&ns=1&cb=1760621771, line 1: unreachable code after return statement
+JavaScript warning: https://businesssearch.sos.ca.gov/_Incapsula_Resource?SWJIYLWA=719d34d31c8e3a6e6fffd425f7e032f3&ns=1&cb=1760621771 line 1 > eval, line 1: unreachable code after return statement
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+[Child 5887, Chrome_ChildThread] WARNING: pipe error: Broken pipe: file /builds/worker/workspace/build/src/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 736
+1548231347763	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-foreground" "-no-remote" "-profile" "/var/folders/xj/1vc4l_jd2tg32mhfsssj5fm80000gn/T/rust_mozprofile.qU1xGCg7LghU"
+2019-01-23 00:15:48.187 firefox-bin[5894:353182] <Afloat - DEBUG: '-[Afloat install]'>: <Afloat: 0x113582400> found no Window menu in NSApp <GeckoNSApplication: 0x102f97e50>
+1548231348637	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid host permission: resource://pdf.js/
+1548231348637	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid host permission: about:reader*
+Can't find symbol 'GetGraphicsResetStatus'.
+1548231350999	Marionette	INFO	Listening on port 65413
+1548231351063	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://businesssearch.sos.ca.gov/_Incapsula_Resource?SWJIYLWA=719d34d31c8e3a6e6fffd425f7e032f3&ns=1&cb=1188192635, line 1: unreachable code after return statement
+JavaScript warning: https://businesssearch.sos.ca.gov/_Incapsula_Resource?SWJIYLWA=719d34d31c8e3a6e6fffd425f7e032f3&ns=1&cb=1188192635, line 1: unreachable code after return statement
+JavaScript warning: https://businesssearch.sos.ca.gov/_Incapsula_Resource?SWJIYLWA=719d34d31c8e3a6e6fffd425f7e032f3&ns=1&cb=1188192635 line 1 > eval, line 1: unreachable code after return statement
+1548231368520	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-foreground" "-no-remote" "-profile" "/var/folders/xj/1vc4l_jd2tg32mhfsssj5fm80000gn/T/rust_mozprofile.rmHUd7IrFueL"
+2019-01-23 00:16:09.592 firefox-bin[5902:354333] <Afloat - DEBUG: '-[Afloat install]'>: <Afloat: 0x11855c400> found no Window menu in NSApp <GeckoNSApplication: 0x107f97e50>
+1548231369813	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid host permission: resource://pdf.js/
+1548231369813	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid host permission: about:reader*
+Can't find symbol 'GetGraphicsResetStatus'.
+1548231371931	Marionette	INFO	Listening on port 65501
+1548231372039	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://businesssearch.sos.ca.gov/_Incapsula_Resource?SWJIYLWA=719d34d31c8e3a6e6fffd425f7e032f3&ns=1&cb=44432693, line 1: unreachable code after return statement
+JavaScript warning: https://businesssearch.sos.ca.gov/_Incapsula_Resource?SWJIYLWA=719d34d31c8e3a6e6fffd425f7e032f3&ns=1&cb=44432693, line 1: unreachable code after return statement
+JavaScript warning: https://businesssearch.sos.ca.gov/_Incapsula_Resource?SWJIYLWA=719d34d31c8e3a6e6fffd425f7e032f3&ns=1&cb=44432693 line 1 > eval, line 1: unreachable code after return statement
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+[Child 5904, Chrome_ChildThread] WARNING: pipe error: Broken pipe: file /builds/worker/workspace/build/src/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 736
+1548231442538	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-foreground" "-no-remote" "-profile" "/var/folders/xj/1vc4l_jd2tg32mhfsssj5fm80000gn/T/rust_mozprofile.2lgEDisyMb9q"
+2019-01-23 00:17:22.943 firefox-bin[5912:356095] <Afloat - DEBUG: '-[Afloat install]'>: <Afloat: 0x12045e3a0> found no Window menu in NSApp <GeckoNSApplication: 0x10fb96e50>
+1548231443169	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid host permission: resource://pdf.js/
+1548231443169	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid host permission: about:reader*
+Can't find symbol 'GetGraphicsResetStatus'.
+1548231444833	Marionette	INFO	Listening on port 49210
+1548231444920	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://businesssearch.sos.ca.gov/_Incapsula_Resource?SWJIYLWA=719d34d31c8e3a6e6fffd425f7e032f3&ns=1&cb=1555784975, line 1: unreachable code after return statement
+1548231645667	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-foreground" "-no-remote" "-profile" "/var/folders/xj/1vc4l_jd2tg32mhfsssj5fm80000gn/T/rust_mozprofile.iQPtT4r0268G"
+2019-01-23 00:20:46.123 firefox-bin[5922:358329] <Afloat - DEBUG: '-[Afloat install]'>: <Afloat: 0x11ef603e0> found no Window menu in NSApp <GeckoNSApplication: 0x10e997e50>
+1548231646355	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid host permission: resource://pdf.js/
+1548231646355	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid host permission: about:reader*
+Can't find symbol 'GetGraphicsResetStatus'.
+1548231648368	Marionette	INFO	Listening on port 49291
+1548231648456	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://businesssearch.sos.ca.gov/_Incapsula_Resource?SWJIYLWA=719d34d31c8e3a6e6fffd425f7e032f3&ns=2&cb=486154782, line 1: unreachable code after return statement
+JavaScript warning: https://businesssearch.sos.ca.gov/_Incapsula_Resource?SWJIYLWA=719d34d31c8e3a6e6fffd425f7e032f3&ns=2&cb=486154782, line 1: unreachable code after return statement
+JavaScript warning: https://businesssearch.sos.ca.gov/_Incapsula_Resource?SWJIYLWA=719d34d31c8e3a6e6fffd425f7e032f3&ns=2&cb=486154782 line 1 > eval, line 1: unreachable code after return statement
+1548231714875	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-foreground" "-no-remote" "-profile" "/var/folders/xj/1vc4l_jd2tg32mhfsssj5fm80000gn/T/rust_mozprofile.6QCZVNwEP0KH"
+2019-01-23 00:21:55.494 firefox-bin[5932:360301] <Afloat - DEBUG: '-[Afloat install]'>: <Afloat: 0x11aa67380> found no Window menu in NSApp <GeckoNSApplication: 0x10a497e50>
+1548231715763	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid host permission: resource://pdf.js/
+1548231715764	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid host permission: about:reader*
+Can't find symbol 'GetGraphicsResetStatus'.
+1548231717806	Marionette	INFO	Listening on port 49434
+1548231717844	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://businesssearch.sos.ca.gov/_Incapsula_Resource?SWJIYLWA=719d34d31c8e3a6e6fffd425f7e032f3&ns=1&cb=1977868164, line 1: unreachable code after return statement
+JavaScript warning: https://businesssearch.sos.ca.gov/_Incapsula_Resource?SWJIYLWA=719d34d31c8e3a6e6fffd425f7e032f3&ns=1&cb=1977868164, line 1: unreachable code after return statement
+JavaScript warning: https://businesssearch.sos.ca.gov/_Incapsula_Resource?SWJIYLWA=719d34d31c8e3a6e6fffd425f7e032f3&ns=1&cb=1977868164 line 1 > eval, line 1: unreachable code after return statement
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+1548231813266	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-foreground" "-no-remote" "-profile" "/var/folders/xj/1vc4l_jd2tg32mhfsssj5fm80000gn/T/rust_mozprofile.l3fPnAChL0gt"
+2019-01-23 00:23:35.151 firefox-bin[5942:361989] <Afloat - DEBUG: '-[Afloat install]'>: <Afloat: 0x10fd46440> found no Window menu in NSApp <GeckoNSApplication: 0x101897e50>
+1548231815372	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid host permission: resource://pdf.js/
+1548231815372	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid host permission: about:reader*
+Can't find symbol 'GetGraphicsResetStatus'.
+1548231818527	Marionette	INFO	Listening on port 49601
+1548231818542	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://businesssearch.sos.ca.gov/_Incapsula_Resource?SWJIYLWA=719d34d31c8e3a6e6fffd425f7e032f3&ns=1&cb=978294104, line 1: unreachable code after return statement
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+[Child 5943, Chrome_ChildThread] WARNING: pipe error: Broken pipe: file /builds/worker/workspace/build/src/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 736
+1548231879388	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-foreground" "-no-remote" "-profile" "/var/folders/xj/1vc4l_jd2tg32mhfsssj5fm80000gn/T/rust_mozprofile.LEGyzOSnyfxm"
+2019-01-23 00:24:39.935 firefox-bin[5963:363869] <Afloat - DEBUG: '-[Afloat install]'>: <Afloat: 0x115ab4380> found no Window menu in NSApp <GeckoNSApplication: 0x105496e50>
+1548231880169	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid host permission: resource://pdf.js/
+1548231880169	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid host permission: about:reader*
+Can't find symbol 'GetGraphicsResetStatus'.
+1548231883494	Marionette	INFO	Listening on port 49777
+1548231883573	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://businesssearch.sos.ca.gov/_Incapsula_Resource?SWJIYLWA=719d34d31c8e3a6e6fffd425f7e032f3&ns=1&cb=290618042, line 1: unreachable code after return statement
+JavaScript warning: https://businesssearch.sos.ca.gov/_Incapsula_Resource?SWJIYLWA=719d34d31c8e3a6e6fffd425f7e032f3&ns=1&cb=290618042, line 1: unreachable code after return statement
+JavaScript warning: https://businesssearch.sos.ca.gov/_Incapsula_Resource?SWJIYLWA=719d34d31c8e3a6e6fffd425f7e032f3&ns=1&cb=290618042 line 1 > eval, line 1: unreachable code after return statement
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+[Child 5966, Chrome_ChildThread] WARNING: pipe error: Broken pipe: file /builds/worker/workspace/build/src/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 736
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+1548231979810	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-foreground" "-no-remote" "-profile" "/var/folders/xj/1vc4l_jd2tg32mhfsssj5fm80000gn/T/rust_mozprofile.DOpXXyfNUOGa"
+2019-01-23 00:26:20.220 firefox-bin[5986:366083] <Afloat - DEBUG: '-[Afloat install]'>: <Afloat: 0x1157a5380> found no Window menu in NSApp <GeckoNSApplication: 0x104e97e50>
+1548231980447	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid host permission: resource://pdf.js/
+1548231980447	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid host permission: about:reader*
+Can't find symbol 'GetGraphicsResetStatus'.
+1548231982176	Marionette	INFO	Listening on port 49878
+1548231982206	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://businesssearch.sos.ca.gov/_Incapsula_Resource?SWJIYLWA=719d34d31c8e3a6e6fffd425f7e032f3&ns=1&cb=1921343307, line 1: unreachable code after return statement
+JavaScript warning: https://businesssearch.sos.ca.gov/_Incapsula_Resource?SWJIYLWA=719d34d31c8e3a6e6fffd425f7e032f3&ns=1&cb=1921343307, line 1: unreachable code after return statement
+JavaScript warning: https://businesssearch.sos.ca.gov/_Incapsula_Resource?SWJIYLWA=719d34d31c8e3a6e6fffd425f7e032f3&ns=1&cb=1921343307 line 1 > eval, line 1: unreachable code after return statement
+console.error: BroadcastService: 
+  receivedBroadcastMessage: handler for
+  remote-settings/monitor_changes
+  threw error:
+  Message: Error: Polling for changes failed: NetworkError when attempting to fetch resource..
+  Stack:
+    remoteSettingsFunction/remoteSettings.pollChanges@resource://services-settings/remote-settings.js:750:13
+
+console.error: BroadcastService: 
+  receivedBroadcastMessage: handler for
+  remote-settings/monitor_changes
+  threw error:
+  Message: Error: Polling for changes failed: NetworkError when attempting to fetch resource..
+  Stack:
+    remoteSettingsFunction/remoteSettings.pollChanges@resource://services-settings/remote-settings.js:750:13
+
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+[Child 5988, Chrome_ChildThread] WARNING: pipe error: Broken pipe: file /builds/worker/workspace/build/src/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 736
+1548232138306	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-foreground" "-no-remote" "-profile" "/var/folders/xj/1vc4l_jd2tg32mhfsssj5fm80000gn/T/rust_mozprofile.sKmMFgtXSzRK"
+2019-01-23 00:28:58.887 firefox-bin[5994:368024] <Afloat - DEBUG: '-[Afloat install]'>: <Afloat: 0x11b3614a0> found no Window menu in NSApp <GeckoNSApplication: 0x10ad97e50>
+1548232139210	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid host permission: resource://pdf.js/
+1548232139210	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid host permission: about:reader*
+Can't find symbol 'GetGraphicsResetStatus'.
+1548232141134	Marionette	INFO	Listening on port 49982
+1548232141202	Marionette	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+[Child 5914, Chrome_ChildThread] WARNING: pipe error: Broken pipe: file /builds/worker/workspace/build/src/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 736
+JavaScript warning: https://businesssearch.sos.ca.gov/_Incapsula_Resource?SWJIYLWA=719d34d31c8e3a6e6fffd425f7e032f3&ns=1&cb=482152302, line 1: unreachable code after return statement
+JavaScript warning: https://businesssearch.sos.ca.gov/_Incapsula_Resource?SWJIYLWA=719d34d31c8e3a6e6fffd425f7e032f3&ns=1&cb=482152302, line 1: unreachable code after return statement
+JavaScript warning: https://businesssearch.sos.ca.gov/_Incapsula_Resource?SWJIYLWA=719d34d31c8e3a6e6fffd425f7e032f3&ns=1&cb=482152302 line 1 > eval, line 1: unreachable code after return statement
+1548232363956	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-foreground" "-no-remote" "-profile" "/var/folders/xj/1vc4l_jd2tg32mhfsssj5fm80000gn/T/rust_mozprofile.ZCVssNdmmgfx"
+2019-01-23 00:32:44.423 firefox-bin[6050:370764] <Afloat - DEBUG: '-[Afloat install]'>: <Afloat: 0x117bc8400> found no Window menu in NSApp <GeckoNSApplication: 0x109097e50>
+1548232364776	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid host permission: resource://pdf.js/
+1548232364776	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid host permission: about:reader*
+Can't find symbol 'GetGraphicsResetStatus'.
+1548232367122	Marionette	INFO	Listening on port 50093
+1548232367194	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://businesssearch.sos.ca.gov/_Incapsula_Resource?SWJIYLWA=719d34d31c8e3a6e6fffd425f7e032f3&ns=2&cb=555493483, line 1: unreachable code after return statement
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+[Child 6052, Chrome_ChildThread] WARNING: pipe error: Broken pipe: file /builds/worker/workspace/build/src/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 736
+1548232438071	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-foreground" "-no-remote" "-profile" "/var/folders/xj/1vc4l_jd2tg32mhfsssj5fm80000gn/T/rust_mozprofile.H1cTzDk8l0OY"
+2019-01-23 00:33:58.518 firefox-bin[6060:372437] <Afloat - DEBUG: '-[Afloat install]'>: <Afloat: 0x11a85c3c0> found no Window menu in NSApp <GeckoNSApplication: 0x10a297e50>
+1548232438742	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid host permission: resource://pdf.js/
+1548232438743	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid host permission: about:reader*
+Can't find symbol 'GetGraphicsResetStatus'.
+1548232440968	Marionette	INFO	Listening on port 50182
+1548232441057	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://businesssearch.sos.ca.gov/_Incapsula_Resource?SWJIYLWA=719d34d31c8e3a6e6fffd425f7e032f3&ns=1&cb=2030328011, line 1: unreachable code after return statement
+JavaScript warning: https://businesssearch.sos.ca.gov/_Incapsula_Resource?SWJIYLWA=719d34d31c8e3a6e6fffd425f7e032f3&ns=1&cb=2030328011, line 1: unreachable code after return statement
+JavaScript warning: https://businesssearch.sos.ca.gov/_Incapsula_Resource?SWJIYLWA=719d34d31c8e3a6e6fffd425f7e032f3&ns=1&cb=2030328011 line 1 > eval, line 1: unreachable code after return statement
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+1548232510211	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-foreground" "-no-remote" "-profile" "/var/folders/xj/1vc4l_jd2tg32mhfsssj5fm80000gn/T/rust_mozprofile.pioB9gG9PMoq"
+2019-01-23 00:35:10.632 firefox-bin[6070:374003] <Afloat - DEBUG: '-[Afloat install]'>: <Afloat: 0x11db65400> found no Window menu in NSApp <GeckoNSApplication: 0x10d597e50>
+1548232510868	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid host permission: resource://pdf.js/
+1548232510869	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid host permission: about:reader*
+Can't find symbol 'GetGraphicsResetStatus'.
+1548232512663	Marionette	INFO	Listening on port 50267
+1548232512704	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://businesssearch.sos.ca.gov/_Incapsula_Resource?SWJIYLWA=719d34d31c8e3a6e6fffd425f7e032f3&ns=4&cb=1557109463, line 1: unreachable code after return statement
+JavaScript warning: https://businesssearch.sos.ca.gov/_Incapsula_Resource?SWJIYLWA=719d34d31c8e3a6e6fffd425f7e032f3&ns=4&cb=1557109463, line 1: unreachable code after return statement
+JavaScript warning: https://businesssearch.sos.ca.gov/_Incapsula_Resource?SWJIYLWA=719d34d31c8e3a6e6fffd425f7e032f3&ns=4&cb=1557109463 line 1 > eval, line 1: unreachable code after return statement
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+[Child 6072, Chrome_ChildThread] WARNING: pipe error: Broken pipe: file /builds/worker/workspace/build/src/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 736
+1548232554069	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-foreground" "-no-remote" "-profile" "/var/folders/xj/1vc4l_jd2tg32mhfsssj5fm80000gn/T/rust_mozprofile.C6tN5vo0ySqO"
+2019-01-23 00:35:54.816 firefox-bin[6079:375474] <Afloat - DEBUG: '-[Afloat install]'>: <Afloat: 0x1204623e0> found no Window menu in NSApp <GeckoNSApplication: 0x10fe97e50>
+1548232555044	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid host permission: resource://pdf.js/
+1548232555045	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid host permission: about:reader*
+Can't find symbol 'GetGraphicsResetStatus'.
+1548232557477	Marionette	INFO	Listening on port 50348
+1548232557560	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://businesssearch.sos.ca.gov/_Incapsula_Resource?SWJIYLWA=719d34d31c8e3a6e6fffd425f7e032f3&ns=4&cb=1803204063, line 1: unreachable code after return statement
+JavaScript warning: https://businesssearch.sos.ca.gov/_Incapsula_Resource?SWJIYLWA=719d34d31c8e3a6e6fffd425f7e032f3&ns=4&cb=1803204063, line 1: unreachable code after return statement
+JavaScript warning: https://businesssearch.sos.ca.gov/_Incapsula_Resource?SWJIYLWA=719d34d31c8e3a6e6fffd425f7e032f3&ns=4&cb=1803204063 line 1 > eval, line 1: unreachable code after return statement
+console.error: BroadcastService: 
+console.error: BroadcastService: 
+  receivedBroadcastMessage: handler for
+  remote-settings/monitor_changes
+  threw error:
+  receivedBroadcastMessage: handler for
+  Message: Error: Polling for changes failed: NetworkError when attempting to fetch resource..
+  Stack:
+    remoteSettingsFunction/remoteSettings.pollChanges@resource://services-settings/remote-settings.js:750:13
+
+  remote-settings/monitor_changes
+  threw error:
+  Message: Error: Polling for changes failed: NetworkError when attempting to fetch resource..
+  Stack:
+    remoteSettingsFunction/remoteSettings.pollChanges@resource://services-settings/remote-settings.js:750:13
+
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+1548232975078	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-foreground" "-no-remote" "-profile" "/var/folders/xj/1vc4l_jd2tg32mhfsssj5fm80000gn/T/rust_mozprofile.0cxG07BQh6FA"
+2019-01-23 00:42:57.019 firefox-bin[6092:378649] <Afloat - DEBUG: '-[Afloat install]'>: <Afloat: 0x11769f4a0> found no Window menu in NSApp <GeckoNSApplication: 0x107097e50>
+1548232977258	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid host permission: resource://pdf.js/
+1548232977258	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid host permission: about:reader*
+Can't find symbol 'GetGraphicsResetStatus'.
+1548232980693	Marionette	INFO	Listening on port 50499
+1548232980763	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://businesssearch.sos.ca.gov/_Incapsula_Resource?SWJIYLWA=719d34d31c8e3a6e6fffd425f7e032f3&ns=4&cb=1607400643, line 1: unreachable code after return statement
+JavaScript warning: https://businesssearch.sos.ca.gov/_Incapsula_Resource?SWJIYLWA=719d34d31c8e3a6e6fffd425f7e032f3&ns=4&cb=1607400643, line 1: unreachable code after return statement
+JavaScript warning: https://businesssearch.sos.ca.gov/_Incapsula_Resource?SWJIYLWA=719d34d31c8e3a6e6fffd425f7e032f3&ns=4&cb=1607400643 line 1 > eval, line 1: unreachable code after return statement
+console.error: BroadcastService: 
+  receivedBroadcastMessage: handler for
+  remote-settings/monitor_changes
+  threw error:
+  Message: Error: Polling for changes failed: NetworkError when attempting to fetch resource..
+  Stack:
+    remoteSettingsFunction/remoteSettings.pollChanges@resource://services-settings/remote-settings.js:750:13
+
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+[Child 6093, Chrome_ChildThread] WARNING: pipe error: Broken pipe: file /builds/worker/workspace/build/src/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 736
+1548233263657	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-foreground" "-no-remote" "-profile" "/var/folders/xj/1vc4l_jd2tg32mhfsssj5fm80000gn/T/rust_mozprofile.5vRLuGvWTKQp"
+2019-01-23 00:47:45.529 firefox-bin[6116:381474] <Afloat - DEBUG: '-[Afloat install]'>: <Afloat: 0x11f5bd4c0> found no Window menu in NSApp <GeckoNSApplication: 0x10ef97e50>
+1548233265772	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid host permission: resource://pdf.js/
+1548233265773	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid host permission: about:reader*
+Can't find symbol 'GetGraphicsResetStatus'.
+1548233269368	Marionette	INFO	Listening on port 50659
+1548233269468	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://businesssearch.sos.ca.gov/_Incapsula_Resource?SWJIYLWA=719d34d31c8e3a6e6fffd425f7e032f3&ns=15&cb=1945337951, line 1: unreachable code after return statement

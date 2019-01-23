@@ -11,46 +11,76 @@ class PDF_Gatherer:
     def __init__(self):
         '''Hang on to constants'''
 
+        # Prepare
         self.url_prefix = ("https://businesssearch.sos.ca.gov/CBS/SearchResults?"
                       "filing=False&SearchType=LPLLC&SearchCriteria=")
-        self.filename = 'parcel_info_last_line_deleted.csv'
+        self.filename = 'parcelinfo_lastlinedeleted_positivesentinellineprepended.csv'
         self.df = pd.read_csv(self.filename)['OWNNAME'].unique()
         self.url_suffix = "&SearchSubType=Keyword"
         self.browser = webdriver.Firefox()
+        self.outfile = open('outfile.csv', 'w')
 
-        self.gather_all_pdfs()
+        # Execute
+        self.soup = self.gather_all_pdfs()
 
 
     def gather_all_pdfs(self):
         '''Gather all pdfs'''
 
-        for query in self.df:
-            print(query)
-            self.gather_one_pdf(query)
+#        for i in range(len(self.df))[1565:]:
+        for i in range(len(self.df)):
+            print(i)
+            print(self.df[i])
+            
+            result = self.gather_one_pdf(self.df[i])
+            if result:
+                return result
             
 
 
     def gather_one_pdf(self, query):
         '''gather one pdf'''
 
-        url = self.url_prefix + query + self.url_suffix
+        url = self.url_prefix + query.replace(' ', '+') + self.url_suffix
+        print(url)
 
         self.browser.get(url)
 
         # Make sure we get any results at all
         soup = BeautifulSoup(self.browser.page_source, 'html.parser')
+
+        # Check for zero results
         n_results =\
             len(soup.find_all('td', attrs={'class':'dataTables_empty'}))
         if n_results != 0:
+            self.outfile.write(query + ',' + '0' + '\n')
+            self.outfile.flush()
             print("no results found!")
             # log something about finding zero results
             return
 
+        # Check for more than one result
+        buttons = soup.find_all('button')
+        if len(buttons) != 1:
+            self.outfile.write(query + ',' + str(len(buttons)) + '\n')
+            self.outfile.flush()
+            print("more than one result") 
+            return
+
+        # So now we have exactly one result
+        print('exactly one result')
 
 
-        # get button id
-        button_id = 'btnDetail-200725810008'
-        the_button = self.browser.find_element_by_id(button_id)
+        # get button id and go to the PDF page
+#        button_id = 'btnDetail-200725810008'
+        button_id = buttons[0].attrs['id']
+        print(button_id)
+
+        try:
+            the_button = self.browser.find_element_by_id(button_id)
+        except:
+            print('cannot find button')
+            return soup
         the_button.click()
 
 
@@ -63,20 +93,22 @@ class PDF_Gatherer:
         suffixes =\
             [str(b[u]).split('value="')[1].split('"')[0] for u in range(len(b))]
 
-        if len(suffixes) > 1:
-            print("Found more than one!")
-            # Log something in the spreadsheet?
-            return
 
-        res = requests.get(suffixes[0])
+        # We need to get the doctype and sufiix corresponding to each 
 
-        with open(query.replace(' ', '_') + '.pdf', 'wb') as o:
-            o.write(res.content)
+        for i in range(len(suffixes)):
+            res = requests.get(pdf_url_prefix + suffixes[i])
+            with open(query.replace(' ', '_') + str(i) + '.pdf', 'wb') as o:
+                o.write(res.content)
+#        res = requests.get(suffixes[0])
+#
+#        with open(query.replace(' ', '_') + '.pdf', 'wb') as o:
+#            o.write(res.content)
 
         print()
-        exit()
 
 
         
 if __name__ == "__main__":
     the_pdf_gatherer = PDF_Gatherer()
+    soup = the_pdf_gatherer.soup

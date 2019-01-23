@@ -34,8 +34,8 @@ browser.get(url)
 
 # Make sure we have any results at all
 soup = BeautifulSoup(browser.page_source, 'html.parser')
-print(soup.find_all('td', attrs={'class': 'dataTables_empty'}))
-exit()
+#print(soup.find_all('td', attrs={'class': 'dataTables_empty'}))
+#exit()
 # get button id
 button_id = 'btnDetail-200725810008'
 the_button = browser.find_element_by_id(button_id)
