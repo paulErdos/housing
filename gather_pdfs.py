@@ -12,6 +12,8 @@ class PDF_Gatherer:
         '''Hang on to constants'''
 
         # Prepare
+        self.pdf_url_prefix =\
+            'https://businesssearch.sos.ca.gov/Document/RetrievePDF?Id='
         self.url_prefix = ("https://businesssearch.sos.ca.gov/CBS/SearchResults?"
                       "filing=False&SearchType=LPLLC&SearchCriteria=")
         self.filename = 'parcelinfo_lastlinedeleted_positivesentinellineprepended.csv'
@@ -27,8 +29,8 @@ class PDF_Gatherer:
     def gather_all_pdfs(self):
         '''Gather all pdfs'''
 
-#        for i in range(len(self.df))[1565:]:
-        for i in range(len(self.df)):
+        for i in range(len(self.df))[2536:]:
+#        for i in range(len(self.df)):
             print(i)
             print(self.df[i])
             
@@ -85,6 +87,36 @@ class PDF_Gatherer:
 
 
         soup = BeautifulSoup(self.browser.page_source, 'html.parser')
+
+        tbodies = soup.find_all('tbody')
+        if not tbodies:
+            raise Exception("Error: Can't find table")
+            return soup
+        tbodies = tbodies[0]
+
+        for i in range(int(len(tbodies) / 3)):
+            doctype = tbodies.find_all('td')[3 * i].text.strip()
+            date = tbodies.find_all('td')[3 * i + 1].text.strip().replace('/', '-')
+
+            # Debug
+#            return soup
+
+            button = tbodies.find_all('td')[3 * i + 2].find_all('button')[0]
+
+            suffix = str(button).split('value="')[1].split('"')[0]
+            
+            res = requests.get(self.pdf_url_prefix + suffix)
+            filename = '_'.join([doctype, date, query]) + '.pdf'
+            filename = filename.replace('/', '')
+
+            with open(filename, 'wb') as o:
+                o.write(res.content)
+
+
+        print()
+        return
+
+            
         buttons = soup.find_all('button')
         #foo = #somefunction
         pdf_url_prefix =\
