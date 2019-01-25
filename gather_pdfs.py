@@ -29,7 +29,7 @@ class PDF_Gatherer:
     def gather_all_pdfs(self):
         '''Gather all pdfs'''
 
-        for i in range(len(self.df))[2536:]:
+        for i in range(len(self.df))[6394:]:
 #        for i in range(len(self.df)):
             print(i)
             print(self.df[i])
@@ -94,12 +94,20 @@ class PDF_Gatherer:
             return soup
         tbodies = tbodies[0]
 
+        # Make sure all pdfs are available
+        if "Image unavailable. Please request paper copy." in str(tbodies):
+            self.outfile.write(query + ',' + 'Image unavailable' + '\n')
+            self.outfile.flush()
+            print("Image unavailable") 
+            return
+            
+
         for i in range(int(len(tbodies) / 3)):
             doctype = tbodies.find_all('td')[3 * i].text.strip()
             date = tbodies.find_all('td')[3 * i + 1].text.strip().replace('/', '-')
 
             # Debug
-#            return soup
+            return soup
 
             button = tbodies.find_all('td')[3 * i + 2].find_all('button')[0]
 
@@ -117,28 +125,28 @@ class PDF_Gatherer:
         return
 
             
-        buttons = soup.find_all('button')
-        #foo = #somefunction
-        pdf_url_prefix =\
-            'https://businesssearch.sos.ca.gov/Document/RetrievePDF?Id='
-        b = buttons
-        suffixes =\
-            [str(b[u]).split('value="')[1].split('"')[0] for u in range(len(b))]
-
-
-        # We need to get the doctype and sufiix corresponding to each 
-
-        for i in range(len(suffixes)):
-            res = requests.get(pdf_url_prefix + suffixes[i])
-            with open(query.replace(' ', '_') + str(i) + '.pdf', 'wb') as o:
-                o.write(res.content)
-#        res = requests.get(suffixes[0])
+#        buttons = soup.find_all('button')
+#        #foo = #somefunction
+#        pdf_url_prefix =\
+#            'https://businesssearch.sos.ca.gov/Document/RetrievePDF?Id='
+#        b = buttons
+#        suffixes =\
+#            [str(b[u]).split('value="')[1].split('"')[0] for u in range(len(b))]
 #
-#        with open(query.replace(' ', '_') + '.pdf', 'wb') as o:
-#            o.write(res.content)
-
-        print()
-
+#
+#        # We need to get the doctype and sufiix corresponding to each 
+#
+#        for i in range(len(suffixes)):
+#            res = requests.get(pdf_url_prefix + suffixes[i])
+#            with open(query.replace(' ', '_') + str(i) + '.pdf', 'wb') as o:
+#                o.write(res.content)
+##        res = requests.get(suffixes[0])
+##
+##        with open(query.replace(' ', '_') + '.pdf', 'wb') as o:
+##            o.write(res.content)
+#
+#        print()
+#
 
         
 if __name__ == "__main__":
