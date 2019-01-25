@@ -29,7 +29,7 @@ class PDF_Gatherer:
     def gather_all_pdfs(self):
         '''Gather all pdfs'''
 
-        for i in range(len(self.df))[6394:]:
+        for i in range(len(self.df))[6409:]:
 #        for i in range(len(self.df)):
             print(i)
             print(self.df[i])
@@ -105,9 +105,6 @@ class PDF_Gatherer:
         for i in range(int(len(tbodies) / 3)):
             doctype = tbodies.find_all('td')[3 * i].text.strip()
             date = tbodies.find_all('td')[3 * i + 1].text.strip().replace('/', '-')
-
-            # Debug
-            return soup
 
             button = tbodies.find_all('td')[3 * i + 2].find_all('button')[0]
 
