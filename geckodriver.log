@@ -1146,3 +1146,48 @@ Can't find symbol 'GetGraphicsResetStatus'.
 JavaScript warning: https://businesssearch.sos.ca.gov/_Incapsula_Resource?SWJIYLWA=719d34d31c8e3a6e6fffd425f7e032f3&ns=1&cb=562092486, line 1: unreachable code after return statement
 JavaScript warning: https://businesssearch.sos.ca.gov/_Incapsula_Resource?SWJIYLWA=719d34d31c8e3a6e6fffd425f7e032f3&ns=1&cb=562092486, line 1: unreachable code after return statement
 JavaScript warning: https://businesssearch.sos.ca.gov/_Incapsula_Resource?SWJIYLWA=719d34d31c8e3a6e6fffd425f7e032f3&ns=1&cb=562092486 line 1 > eval, line 1: unreachable code after return statement
+1548384779989	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-foreground" "-no-remote" "-profile" "/var/folders/xj/1vc4l_jd2tg32mhfsssj5fm80000gn/T/rust_mozprofile.AodY17pcbNbQ"
+2019-01-24 18:53:00.414 firefox-bin[7025:493242] <Afloat - DEBUG: '-[Afloat install]'>: <Afloat: 0x11e9333a0> found no Window menu in NSApp <GeckoNSApplication: 0x10fe96e50>
+1548384780654	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid host permission: resource://pdf.js/
+1548384780654	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid host permission: about:reader*
+Can't find symbol 'GetGraphicsResetStatus'.
+1548384782273	Marionette	INFO	Listening on port 57304
+1548384782361	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://businesssearch.sos.ca.gov/_Incapsula_Resource?SWJIYLWA=719d34d31c8e3a6e6fffd425f7e032f3&ns=1&cb=1874408631, line 1: unreachable code after return statement
+JavaScript warning: https://businesssearch.sos.ca.gov/_Incapsula_Resource?SWJIYLWA=719d34d31c8e3a6e6fffd425f7e032f3&ns=1&cb=1874408631, line 1: unreachable code after return statement
+JavaScript warning: https://businesssearch.sos.ca.gov/_Incapsula_Resource?SWJIYLWA=719d34d31c8e3a6e6fffd425f7e032f3&ns=1&cb=1874408631 line 1 > eval, line 1: unreachable code after return statement
+console.error: BroadcastService: 
+  receivedBroadcastMessage: handler for
+  remote-settings/monitor_changes
+  threw error:
+  Message: Error: Polling for changes failed: NetworkError when attempting to fetch resource..
+  Stack:
+    remoteSettingsFunction/remoteSettings.pollChanges@resource://services-settings/remote-settings.js:750:13
+
+/Library/Caches/com.apple.xbs/Sources/AppleGVA/AppleGVA-9.1.12/Sources/Slices/Driver/AVD_loader.cpp: failed to get a service for display 4 
+/Library/Caches/com.apple.xbs/Sources/AppleGVA/AppleGVA-9.1.12/Sources/Slices/Driver/AVD_loader.cpp: failed to get a service for display 5 
+Can't find symbol 'GetGraphicsResetStatus'.
+[Parent 5994, Gecko_IOThread] WARNING: pipe error: Broken pipe: file /builds/worker/workspace/build/src/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 736
+JavaScript warning: https://www.google.com/maps/place/Key+Tea+House+and+Kava+Lounge/@37.973,-122.53103,15z/data=!4m2!3m1!1s0x0:0xc46807e90457332e?ved=2ahUKEwjLvfb1_IfgAhWlHDQIHUdkB58Q_BIwE3oECAUQCA, line 2450: Error: WebGL warning: texSubImage2D: Texture has not been initialized prior to a partial upload, forcing the browser to clear it. This may be slow.
+JavaScript warning: https://www.google.com/maps/place/Key+Tea+House+and+Kava+Lounge/@37.973,-122.53103,15z/data=!4m2!3m1!1s0x0:0xc46807e90457332e?ved=2ahUKEwjLvfb1_IfgAhWlHDQIHUdkB58Q_BIwE3oECAUQCA, line 2450: Error: WebGL warning: texSubImage2D: This operation requires zeroing texture data. This is slow.
+JavaScript warning: https://www.google.com/maps/place/Key+Tea+House+and+Kava+Lounge/@37.973,-122.53103,15z/data=!4m2!3m1!1s0x0:0xc46807e90457332e?ved=2ahUKEwjLvfb1_IfgAhWlHDQIHUdkB58Q_BIwE3oECAUQCA, line 2449: Error: WebGL warning: texSubImage2D: Texture has not been initialized prior to a partial upload, forcing the browser to clear it. This may be slow.
+JavaScript warning: https://www.google.com/maps/place/Key+Tea+House+and+Kava+Lounge/@37.973,-122.53103,15z/data=!4m2!3m1!1s0x0:0xc46807e90457332e?ved=2ahUKEwjLvfb1_IfgAhWlHDQIHUdkB58Q_BIwE3oECAUQCA, line 2449: Error: WebGL warning: texSubImage2D: This operation requires zeroing texture data. This is slow.
+JavaScript warning: https://www.google.com/maps/place/Key+Tea+House+and+Kava+Lounge/@37.973,-122.53103,15z/data=!4m2!3m1!1s0x0:0xc46807e90457332e?ved=2ahUKEwjLvfb1_IfgAhWlHDQIHUdkB58Q_BIwE3oECAUQCA, line 2450: Error: WebGL warning: texSubImage2D: Texture has not been initialized prior to a partial upload, forcing the browser to clear it. This may be slow.
+JavaScript warning: https://www.google.com/maps/place/Key+Tea+House+and+Kava+Lounge/@37.973,-122.53103,15z/data=!4m2!3m1!1s0x0:0xc46807e90457332e?ved=2ahUKEwjLvfb1_IfgAhWlHDQIHUdkB58Q_BIwE3oECAUQCA, line 2450: Error: WebGL warning: texSubImage2D: This operation requires zeroing texture data. This is slow.
+JavaScript warning: https://www.google.com/maps/place/Key+Tea+House+and+Kava+Lounge/@37.973,-122.53103,15z/data=!4m2!3m1!1s0x0:0xc46807e90457332e?ved=2ahUKEwjLvfb1_IfgAhWlHDQIHUdkB58Q_BIwE3oECAUQCA, line 2450: Error: WebGL warning: texSubImage2D: Texture has not been initialized prior to a partial upload, forcing the browser to clear it. This may be slow.
+JavaScript warning: https://www.google.com/maps/place/Key+Tea+House+and+Kava+Lounge/@37.973,-122.53103,15z/data=!4m2!3m1!1s0x0:0xc46807e90457332e?ved=2ahUKEwjLvfb1_IfgAhWlHDQIHUdkB58Q_BIwE3oECAUQCA, line 2450: Error: WebGL warning: texSubImage2D: This operation requires zeroing texture data. This is slow.
+JavaScript warning: https://www.google.com/maps/place/Key+Tea+House+and+Kava+Lounge/@37.973,-122.53103,15z/data=!4m2!3m1!1s0x0:0xc46807e90457332e?ved=2ahUKEwjLvfb1_IfgAhWlHDQIHUdkB58Q_BIwE3oECAUQCA, line 2450: Error: WebGL warning: texSubImage2D: Texture has not been initialized prior to a partial upload, forcing the browser to clear it. This may be slow.
+JavaScript warning: https://www.google.com/maps/place/Key+Tea+House+and+Kava+Lounge/@37.973,-122.53103,15z/data=!4m2!3m1!1s0x0:0xc46807e90457332e?ved=2ahUKEwjLvfb1_IfgAhWlHDQIHUdkB58Q_BIwE3oECAUQCA, line 2450: Error: WebGL warning: texSubImage2D: This operation requires zeroing texture data. This is slow.
+JavaScript warning: https://www.google.com/maps/place/Key+Tea+House+and+Kava+Lounge/@37.973,-122.53103,15z/data=!4m2!3m1!1s0x0:0xc46807e90457332e?ved=2ahUKEwjLvfb1_IfgAhWlHDQIHUdkB58Q_BIwE3oECAUQCA, line 2450: Error: WebGL warning: texSubImage2D: Texture has not been initialized prior to a partial upload, forcing the browser to clear it. This may be slow.
+JavaScript warning: https://www.google.com/maps/place/Key+Tea+House+and+Kava+Lounge/@37.973,-122.53103,15z/data=!4m2!3m1!1s0x0:0xc46807e90457332e?ved=2ahUKEwjLvfb1_IfgAhWlHDQIHUdkB58Q_BIwE3oECAUQCA, line 2450: Error: WebGL warning: texSubImage2D: This operation requires zeroing texture data. This is slow.
+JavaScript warning: https://www.google.com/maps/place/Key+Tea+House+and+Kava+Lounge/@37.973,-122.53103,15z/data=!4m2!3m1!1s0x0:0xc46807e90457332e?ved=2ahUKEwjLvfb1_IfgAhWlHDQIHUdkB58Q_BIwE3oECAUQCA, line 2467: Error: WebGL warning: clear: This operation requires zeroing texture data. This is slow.
+JavaScript warning: https://www.google.com/maps/place/Key+Tea+House+and+Kava+Lounge/@37.973,-122.53103,15z/data=!4m2!3m1!1s0x0:0xc46807e90457332e?ved=2ahUKEwjLvfb1_IfgAhWlHDQIHUdkB58Q_BIwE3oECAUQCA, line 2469: Error: WebGL warning: drawArrays: This operation requires zeroing texture data. This is slow.
+JavaScript warning: https://static.parastorage.com/services/third-party/jquery/2.0.3/jquery.min.js, line 1: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+/Library/Caches/com.apple.xbs/Sources/AppleGVA/AppleGVA-9.1.12/Sources/Slices/Driver/AVD_loader.cpp: failed to get a service for display 4 
+/Library/Caches/com.apple.xbs/Sources/AppleGVA/AppleGVA-9.1.12/Sources/Slices/Driver/AVD_loader.cpp: failed to get a service for display 5 
+/Library/Caches/com.apple.xbs/Sources/AppleGVA/AppleGVA-9.1.12/Sources/Slices/Driver/AVD_loader.cpp: failed to get a service for display 4 
+/Library/Caches/com.apple.xbs/Sources/AppleGVA/AppleGVA-9.1.12/Sources/Slices/Driver/AVD_loader.cpp: failed to get a service for display 5 
+Can't find symbol 'GetGraphicsResetStatus'.
+JavaScript warning: https://businesssearch.sos.ca.gov/_Incapsula_Resource?SWJIYLWA=719d34d31c8e3a6e6fffd425f7e032f3&ns=2&cb=1810951790, line 1: unreachable code after return statement
+JavaScript warning: https://businesssearch.sos.ca.gov/_Incapsula_Resource?SWJIYLWA=719d34d31c8e3a6e6fffd425f7e032f3&ns=2&cb=1810951790, line 1: unreachable code after return statement
+JavaScript warning: https://businesssearch.sos.ca.gov/_Incapsula_Resource?SWJIYLWA=719d34d31c8e3a6e6fffd425f7e032f3&ns=2&cb=1810951790 line 1 > eval, line 1: unreachable code after return statement

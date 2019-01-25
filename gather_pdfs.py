@@ -8,43 +8,62 @@ class PDF_Gatherer:
        the values in the 'OWNNAME' column.
     '''
 
-    def __init__(self):
+    def __init__(self, starting_index=0):
         '''Hang on to constants'''
 
         # Prepare
-        self.pdf_url_prefix =\
-            'https://businesssearch.sos.ca.gov/Document/RetrievePDF?Id='
-        self.url_prefix = ("https://businesssearch.sos.ca.gov/CBS/SearchResults?"
-                      "filing=False&SearchType=LPLLC&SearchCriteria=")
-        self.filename = 'parcelinfo_lastlinedeleted_positivesentinellineprepended.csv'
+        self.url_prefix = ("https://businesssearch.sos.ca.gov/CBS/"
+                           "SearchResults?filing=False&SearchType="
+                           "LPLLC&SearchCriteria={}&SearchSubType=Keyword")
+        self.pdf_url_prefix = ('https://businesssearch.sos.ca.gov/'
+                               'Document/RetrievePDF?Id=')
+        self.filename = ('parcelinfo_lastlinedeleted_'
+                         'positivesentinellineprepended.csv')
         self.df = pd.read_csv(self.filename)['OWNNAME'].unique()
-        self.url_suffix = "&SearchSubType=Keyword"
         self.browser = webdriver.Firefox()
         self.outfile = open('outfile.csv', 'w')
 
         # Execute
-        self.soup = self.gather_all_pdfs()
+        self.diagnostic_soup = self.gather_all_pdfs(starting_index)
 
 
-    def gather_all_pdfs(self):
+    def gather_all_pdfs(self, starting_index):
         '''Gather all pdfs'''
 
-        for i in range(len(self.df))[6409:]:
-#        for i in range(len(self.df)):
-            print(i)
-            print(self.df[i])
+        for i in range(len(self.df))[starting_index:]:
+            print('\n\n#{}'.format(i))
+            print('OWNNAME: {}'.format(self.df[i]))
+
+            # Navigate to page
+            # Check number of results
+            # button_exists(button_id), but don't do the button click here.
+            # Then do the button click
+            # Then verify table validity
+            # Then harvest the pdfs
+            
             
             result = self.gather_one_pdf(self.df[i])
             if result:
                 return result
-            
 
 
     def gather_one_pdf(self, query):
-        '''gather one pdf'''
+        '''gather one pdf
 
-        url = self.url_prefix + query.replace(' ', '+') + self.url_suffix
-        print(url)
+           TODO:
+            Break this code up into the following functions, which will be
+            called in this function.
+            # Navigate to page
+            # Check number of results
+            # button_exists(button_id), but don't do the button click here.
+            # Then do the button click
+            # Then verify table validity
+            # Then harvest the pdfs
+
+        '''
+
+        url = self.url_prefix.format(query.replace(' ', '+'))
+        print("Search URL".format(url))
 
         self.browser.get(url)
 
@@ -147,5 +166,5 @@ class PDF_Gatherer:
 
         
 if __name__ == "__main__":
-    the_pdf_gatherer = PDF_Gatherer()
+    the_pdf_gatherer = PDF_Gatherer(14253)
     soup = the_pdf_gatherer.soup

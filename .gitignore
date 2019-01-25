@@ -1,2 +1,7 @@
 *.pdf
-
+.DS_Store
+*.png
+*.txt
+*.gz
+*.log
+*.html
